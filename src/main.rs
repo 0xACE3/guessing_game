@@ -9,7 +9,7 @@ fn main() {
     loop {
         println!("Please input your guess!");
 
-        let mut guess = String::new(); //immutable data types
+        let mut guess = String::new(); //mutable data types
 
         io::stdin()
             .read_line(&mut guess)
